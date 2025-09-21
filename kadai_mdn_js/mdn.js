@@ -7,4 +7,4 @@ let Date0 = date.getDate();
 let Hours0 = date.getHours();
 let Minutes0 = date.getMinutes();
 
-console.log(FullYear0*10000+Month0*100+Date0);
+console.log(FullYear0+"年"+(Month0+1)+"月"+Date0+"日");
