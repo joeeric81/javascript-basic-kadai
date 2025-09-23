@@ -1,4 +1,5 @@
 const calcs = (num) => {
-console.log(num * num);
+    return(num * num);
 }
-calcs(10);
+
+console.log(calcs(10));
